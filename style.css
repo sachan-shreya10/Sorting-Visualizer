@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+h1{
+   
+    text-align: center;
+    font-family:cursive;
+    color: rgb(226, 152, 100);
+}
+nav{
+    display: flex;
+    /* background-color:black; */
+    height: auto;
+}
+.left-buttons
+{
+    display: flex;
+    width: 40%;
+    margin-left: 30px;
+
+}
+.btn{
+    cursor:pointer;
+    border:2px solid rgb(132, 132, 224);
+    border-radius:2rem;
+    color:rgb(132, 132, 224);
+    background:transparent;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+ .btn:hover
+{
+    background-color:rgb(132, 132, 224);
+    color: black;
+} 
+.btn-ar
+{
+    color:cyan;
+    border:2px solid cyan;
+}
+ .btn-ar:hover
+{
+    background-color: cyan;
+    color:black;
+} 
+.container{
+    display: flex;
+    flex-wrap: nowrap; 
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+ }
+.arr-bars
+{
+    background:rgb(235, 145, 235);
+    border:1px solid black;
+    width:10px;
+    margin-top: 10px;
+}
+#input{
+    display: flex;
+    padding: 10px;
+    width: 10%;
+}
+
+p{
+    color:turquoise;
+    background:transparent;
+    font-weight: bold;
+    
+}
+.block
+{
+    margin-left: 2%;
+    display: block;
+}
